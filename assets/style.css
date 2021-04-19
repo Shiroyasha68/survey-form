@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 5000px;
+}
+#judul {
+  border: solid black;
+  line-height: 30px;
+}
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+form {
+  background-color: blue;
+margin: 0 auto;
+text-align: center;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 20px;
+padding: 20px;

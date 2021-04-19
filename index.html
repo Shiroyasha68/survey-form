@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div id="judul">
+      <h1 id="title">Survey Kuota Gratis</h1>
+      <p id="description">menangkan Kuota gratis 50gb dari pemerintah</p>
+    </div>
+    <form id="survey-form">
+      <label for="name" id="name-label">Nama</label>
+      <input type="text" id="name" required placeholder="Masukkan nama anda" />
+      <label for="email" id="email-label">Email</label>
+      <input type="email" name="" id="email" required placeholder="Masukkan alamat email anda" />
+      <label for="number" id="number-label">Umur</label>
+      <input type="number" name="" id="number" min="6" max="24" placeholder="Masukkan umur anda" />
+      <select name="Jenjang" id="dropdown">
+        <option value="SD" disabled>Silakan Pilih Jenjang</option>
+        <option value="SD">Sekolah dasar</option>
+        <option value="SD">Sekolah Menengah pertama</option>
+        <option value="SD">Sekolah Menengah Atas</option>
+        <option value="Mahasiswa">Mahasiswa</option>
+      </select>
+      <p><input type="radio" name="jenis-kelamin" id="pilihan" value="pria" /> Pria</p>
+      <p><input type="radio" name="jenis-kelamin" id="pilihan" value="perempuan" />Perempuan</p>
+      <p><input type="checkbox" name="provider" id="jenis-kartu" value="telkomsel" /> Telkomsel</p>
+      <p><input type="checkbox" name="provider" id="jenis-kartu" value="xl" />XL</p>
+      <p><input type="checkbox" name="provider" id="jenis-kartu" value="indosat" />Indosat</p>
+      <p><input type="checkbox" name="provider" id="jenis-kartu" value="smartfren" />Smartfren</p>
+      <textarea name="komentar" id="komentar" cols="30" rows="10"></textarea>
+      <input type="submit" value="kirim" id="submit" />
+    </form>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
